@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>   
+    <meta charset="UTF-8">
+    <title>ajouter</title>
+</head> 
+<header>
+    <img src="logo promeo.png" height="80" width="80">
+    <h1 style="font-size: 20px">Promeo</h1>
+</header>
+<body>
+    
+    <script src="ajouter.js"></script>
+    
+    <button class="bouton" id="ajouter" onclick="ajoutertache();">Ajouter une tâche</button> 
+    <input type="text" id="task">
+    <p><table>
+    <thead> 
+        <th>Tâches</th>
+        <th>Statut</th>
+    </thead>
+    <tbody>
+            <div id="tableau">
+            </div>
+</tbody>
+</table>
+
+</body>
+<footer >
+    <img src="logo promeo.png" height="80" width="80">
+    AA PROMEO
+    1, avenue Eugène Gazeau
+    60300 SENLIS
+    FRANCE
+    Tél : 03.44.63.81.63
+    Fax : 03.44.53.08.12
+    Évaluation des formations
+</footer>
+    <style>
+        .bouton {
+    margin-left: 40%;
+        }
+        header {
+    background-color: #21a1d5;
+    border-bottom: 1px solid #000;
+    box-shadow: 0 0 7px rgb(0 0 0 / 75%);
+    color: #fff;
+    text-shadow: 0 1px 1px rgb(0 0 0 / 75%);
+}
+        footer {
+    background-color: #095776;
+    border-bottom: 1px solid #000;
+    box-shadow: 0 0 7px rgb(0 0 0 / 75%);
+    color: #fff;
+    text-shadow: 0 1px 1px rgb(0 0 0 / 75%);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+    </style>
+</html>
